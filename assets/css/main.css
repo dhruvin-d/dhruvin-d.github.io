@@ -258,6 +258,48 @@ input, select, textarea {
 
 		}
 
+/* Images for skill section*/
+		.skill-box{
+			padding: 0.25rem;
+		}
+
+		.skill-title{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			padding: 0.25rem;
+		}
+
+		.img-skill{
+			width: 120px;
+			height: 120px;
+			justify-content: center;
+			align-items: center;
+			position: relative;
+			border-radius: 120px;
+			display: flex;
+		}
+
+		.skill-icon{
+			width: 100px;
+			justify-items: center;
+		}
+
+/* Container2 */
+
+.container2 {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 0 auto;
+	max-width: 100%;
+	padding-left: 100px;
+	padding-right: 100px;
+	width: 1400px;
+}
+
 /* Row */
 
 	.row {
